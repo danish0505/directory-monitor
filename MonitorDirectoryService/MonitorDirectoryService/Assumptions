@@ -1,0 +1,14 @@
+Problem Statement: Write the details back into a file with the same name of the source file but the extension should be .mtd
+Assumption: In .mtd file details like number of words, vowels & speacial characters in file should be printed
+
+Problem Statement: Create another file inside each directory with the same name of the directory with the extension .dmtd should contain the aggregated values of each .mtd file information
+Assumption: In .dmtd file details like total number of words, vowels & speacial characters for all files in directory should be printed
+
+Problem Statement: Create another file inside each directory with the same name of the directory with the extension .smtd should contain the file names based on the sorted parameter passed when starting the application
+Assumption: In .smtd all Files names in the directory should be printed, sorted on the basis of criteria provided(i.e., words, vowels or specialChars)
+
+Info:
+
+Target Directory can be specified in application.properties, against the property "watch.dir".
+
+For Running this service Just hit the URl : http://localhost:8080/
